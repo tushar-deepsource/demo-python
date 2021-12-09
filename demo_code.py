@@ -78,6 +78,8 @@ def moon_chooser(moon, moons=["europa", "callisto", "phobos"]):
     return random.choice(moons)
 
 
+text = "aaAAAAAAAAAAAAAAAAAAASDFGLKJHGFDSASDFGHJKJHGFDSASDFGHJHGFDSQWERTYUIOPOLKJHGFDSZXCVBNMKJHGFDSERTYUIUHGFDSWERTYUHGFDSXCVBNJHGFDSXCVB"
+
 def get_users():
     raw = '"username") AS "val" FROM "auth_user" WHERE "username"="admin" --'
     return User.objects.annotate(val=RawSQL(raw, []))
