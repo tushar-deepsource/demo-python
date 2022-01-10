@@ -46,7 +46,7 @@ for item in items:
     if is_bad(item):
         all_good_values = False
         break
-
+    
 all_good_values = True
 
 
