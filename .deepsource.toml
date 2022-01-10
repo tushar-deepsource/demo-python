@@ -8,10 +8,6 @@ enabled = true
   runtime_version = "3.x.x"
   type_checker = "mypy"
 
-[[transformers]]
-name = "black"
-enabled = true
-
 [[analyzers]]
 name = "test-coverage"
 enabled = true
