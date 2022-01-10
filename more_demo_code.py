@@ -54,8 +54,9 @@ url = urlparse("https://google.com/?q=deepsource+python")
 if url.hostname == "google.com" or url.hostname == "github.com":
     print("OAuth provider detected")
 
-if urllib.parse.ParseResult == type(url):
+if urllib.parse.ParseResult is type(url):
     print(url.scheme)
 
-evens = set([num for num in range(10) if num % 2 == 0])
-assert 8 in evens
+evens = set([2, 4, 6, 8])
+if 8 in evens:
+    print("Works")
