@@ -1,6 +1,7 @@
-import urllib.parse
+import urllib.request
 import random
 
+import urllib.parse
 from urllib.parse import urlparse
 
 # import time
