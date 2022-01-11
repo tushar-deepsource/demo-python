@@ -2,7 +2,7 @@ from urllib.parse import urlparse
 import urllib
 import random
 
-import urllib.request
+from urllib import request
 
 # import time
 # import timeit
