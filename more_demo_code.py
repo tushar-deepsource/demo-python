@@ -47,7 +47,8 @@ for item in items:
         all_good_values = False
         break
     
-all_good_values = True
+else:
+    all_good_values = True
 
 
 url = urlparse("https://google.com/?q=deepsource+python")
