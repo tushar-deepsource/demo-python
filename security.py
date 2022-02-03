@@ -1,3 +1,4 @@
+import flask
 import sqlite3
 import requests
 
@@ -30,3 +31,17 @@ def fetch_version(request):
         "https://pypi.python.org/pypi/bgmi/json", verify=False
     ).json()["info"]["version"]
     return version
+
+
+app = flask.Flask(__name__)
+
+@app.route("/")
+def index():
+    response = flask.Response()
+    another_response = flask.Response()
+    yet_another_response = flask.make_response()
+
+    response.set_cookie("key", "value")
+    another_response.set_cookie("key", "value", httponly=False)
+    yet_another_response.set_cookie("key", "value")
+    yet_another_response.set_cookie("K", "V", secure=True)
