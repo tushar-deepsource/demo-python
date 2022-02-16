@@ -21,5 +21,5 @@ name = "secrets"
 enabled = true
 
 [[analyzers]]
-name = "github.com/tushar-deepsource/merge-conflict-analyzer"
+name = "github.com/tushar-deepsource/python-macro"
 enabled = true
