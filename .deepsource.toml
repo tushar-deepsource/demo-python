@@ -19,3 +19,7 @@ enabled = true
 [[analyzers]]
 name = "secrets"
 enabled = true
+
+[[analyzers]]
+name = "github.com/tushar-deepsource/merge-conflict-analyzer"
+enabled = true
