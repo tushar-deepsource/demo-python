@@ -1,15 +1,12 @@
 def foo():
-  print("foo")
-
-
+    print("foo")
 
 
 x = 5
 
+
 def bar():
-  print("foo")
-
-
+    print("foo")
 
 
 bar()
