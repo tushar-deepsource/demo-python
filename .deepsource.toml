@@ -10,7 +10,7 @@ enabled = true
 
 [[transformers]]
 name = "black"
-enabled = false
+enabled = true
 
 [[analyzers]]
 name = "test-coverage"
