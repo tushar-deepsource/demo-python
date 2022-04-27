@@ -5,3 +5,5 @@ def f():
 
     z
     """
+
+import json
