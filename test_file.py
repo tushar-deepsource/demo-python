@@ -7,5 +7,3 @@ for file in files:
         break
 else:
     python_file_found = False
-
-    # bruh
