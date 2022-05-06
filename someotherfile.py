@@ -10,3 +10,7 @@ def bar():
 
 
 bar()
+
+import pdb
+
+pdb.set_trace()
