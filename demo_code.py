@@ -1,3 +1,7 @@
+import json
+
+json.loads(f.read())
+
 def f():
     """
     x
@@ -5,3 +9,5 @@ def f():
 
     z
     """
+
+    f.write(json.dumps('"abc"'))
