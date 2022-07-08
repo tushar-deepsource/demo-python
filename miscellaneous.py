@@ -1,3 +1,4 @@
+"""Doc"""
 from utils import get_next, render_to_frontend, render_bg
 
 
@@ -9,10 +10,12 @@ class Orange:
     # Other class implementations
 
     def get_orange(self):
+        """Doc"""
         return self.orange
 
 
 def render():
+    """Doc"""
     fruit = Orange()
     render_to_frontend(
         fruit.orange
@@ -21,6 +24,7 @@ def render():
 
 
 def play_with_magic_numbers():
+    """Doc"""
     magic_numbers = {0, 1, 1, 2, 3, 5}
 
     for elem in magic_numbers:

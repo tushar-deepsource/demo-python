@@ -1,3 +1,4 @@
+"""Doc"""
 import unittest
 from demo_code import RandomNumberGenerator
 

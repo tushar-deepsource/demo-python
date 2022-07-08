@@ -1,12 +1,17 @@
+"""Doc"""
 import abc
 
 
 class Base:
+    """Doc"""
+
     def __init__(self):
         self.base = 1
 
 
 class BaseOne:
+    """Doc"""
+
     def __init__(self):
         self.base_one = 2
 

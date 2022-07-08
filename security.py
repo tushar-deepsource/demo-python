@@ -3,6 +3,8 @@ import requests
 
 
 class ResidentsDb:
+    """Doc"""
+
     def __init__(self, table_name, mapping_function, duration):
         """Set location on disk data cache will reside.
         Also sets the table name and refresh duration
