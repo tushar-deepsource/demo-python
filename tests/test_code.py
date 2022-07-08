@@ -9,5 +9,7 @@ def test_random_number_generator():
 
 
 class Tests(unittest.TestCase):
+    """Doc"""
     def my_test(self, arg1, arg2):
+        """Doc"""
         self.assertEquals(arg1, arg2)
