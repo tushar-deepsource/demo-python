@@ -1,7 +1,7 @@
 """Doc"""
 
 
-def foo(): # pylint: disable=disallowed-name
+def foo():
     """Doc"""
     print("foo")
 
@@ -9,7 +9,7 @@ def foo(): # pylint: disable=disallowed-name
 x = 5
 
 
-def bar():
+def bar(): # pylint: disable=disallowed-name
     """Doc"""
     print("foo")
 
