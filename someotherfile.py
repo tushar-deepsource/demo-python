@@ -1,7 +1,7 @@
 """Doc"""
 
 
-def foo():
+def foo(): # pylint: disable=disallowed-name
     """Doc"""
     print("foo")
 
