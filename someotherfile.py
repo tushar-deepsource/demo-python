@@ -1,17 +1,16 @@
-"""Doc"""
+no_ip_hosts = {"hostname": "gui-linux"}
+empty_ip_hosts = {"hostname": "gui-linux", "ip_address": ""}
+with_ip_hosts = {"hostname": "gui-linux", "ip_address": "111.111.111.111"}
 
 
-def foo():
-    """Doc"""
-    print("foo")
+def is_ip_address(hosts_dict):
+    for key, value in hosts_dict.items():
+        if key == "ip_address" and value is not None:
+            return True
+
+    return False
 
 
-x = 5
-
-
-def bar():  # pylint: disable=disallowed-name
-    """Doc"""
-    print("foo")
-
-
-bar()
+print(is_ip_address(no_ip_hosts))
+print(is_ip_address(empty_ip_hosts))
+print(is_ip_address(with_ip_hosts))
