@@ -11,7 +11,7 @@ class ResidentsDb:
         """
         self.table_name = table_name
         self.mapping_function = mapping_function
-        self.disk_location = DISK_LOCATION_DEFAULT
+        self.disk_location = DISK_LOCATION_DEFAULT # noqa
         self.duration = duration
         self.conn = None
         self.cursor = None
