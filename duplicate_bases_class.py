@@ -16,9 +16,9 @@ class BaseOne:
         self.base_one = 2
 
 
-class Child(Base, BaseOne, Base, BaseOne):  # skipcq: PYL-E0241
+class Child(Base, BaseOne, Base, BaseOne):
     """Some Child class"""
 
 
-class ChildOne(Base, BaseOne, Base, BaseOne, abc.ABC, abc.ABCMeta, abc.ABCMeta):  # skipcq: PYL-W1234
+class ChildOne(Base, BaseOne, Base, BaseOne, abc.ABC, abc.ABCMeta, abc.ABCMeta):
     """Class with duplicate bases"""
