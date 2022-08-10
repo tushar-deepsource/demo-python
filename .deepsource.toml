@@ -7,3 +7,7 @@ enabled = true
 [analyzers.meta]
 runtime_version = "3.x.x"
 track_test_doc_coverage = true
+
+[[transformers]]
+name = "black"
+enabled = true
