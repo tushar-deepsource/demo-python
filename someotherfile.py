@@ -14,3 +14,5 @@ def is_ip_address(hosts_dict):
 print(is_ip_address(no_ip_hosts))
 print(is_ip_address(empty_ip_hosts))
 print(is_ip_address(with_ip_hosts))
+
+# O(len(N) + len(M))
