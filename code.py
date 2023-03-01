@@ -40,6 +40,17 @@ def main(options: dict = {}) -> str:
     f.close()
 
 
+class C:
+    def foo(self, a):
+        pass
+
+
+class D(C):
+    @somemethod()
+    def foo(self, a, b):
+        pass
+
+
 if __name__ == '__main__':
     args = ['--disable', 'all']
     for i in range(len(args)):
