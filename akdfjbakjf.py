@@ -11,3 +11,5 @@ try:
     
 except Exception:  # pylint:disable=broad-except
     print("died")
+
+exec("foo")
