@@ -84,9 +84,9 @@ no_ip_hosts = {"hostname": "gui-linux"}
 empty_ip_hosts = {"hostname": "gui-linux", "ip_address": ""}
 with_ip_hosts = {"hostname": "gui-linux", "ip_address": "111.111.111.111"}
 
-
+# skipcq
 def is_ip_address(hosts_dict):
-    for key, value in hosts_dict.items():
+    for key, value in hosts_dict.items():  # skipcq
         if key == "ip_address" and value is not None:
             return True
 
@@ -102,7 +102,7 @@ print(is_ip_address(with_ip_hosts))
 from my_utils import get_file_names
 
 files = get_file_names()
-for file in files:
+for file in files:  # skipcq
     if file.endswith(".py"):
         python_file_found = True
         break
