@@ -10,6 +10,5 @@ else:
 
 print("oinoijfoijdf")
 import os
-import sys
 
     # bruh
