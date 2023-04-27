@@ -9,6 +9,7 @@ else:
     python_file_found = False
 
 print("oinoijfoijdf")
+import os
 import sys
 
     # bruh
