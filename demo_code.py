@@ -1,7 +1,7 @@
 """Doc"""
 import abc
 import os
-import sys
+
 
 def f():
     """
