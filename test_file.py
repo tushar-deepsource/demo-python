@@ -8,14 +8,13 @@ for file in files:
 else:
     python_file_found = False
 
-exec(  "bruh"        
-
-      )
-import os   
-import  sys
+exec("bruh")
+import os
+import sys
 
 
 exec(
-"a",)
+    "a",
+)
 
 # bruh
