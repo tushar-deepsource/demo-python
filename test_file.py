@@ -10,8 +10,11 @@ else:
 
 exec("bruh")
 import os
-import sys
+import         sys
 
 
+
+
+exec("a")
 
     # bruh
