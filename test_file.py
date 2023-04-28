@@ -8,6 +8,6 @@ for file in files:
 else:
     python_file_found = False
 
-exec("oinoijfoijdf")
+exec("bruh")
 
     # bruh
