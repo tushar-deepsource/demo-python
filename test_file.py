@@ -11,6 +11,6 @@ else:
 
 exec("oinoijfoijdf")
 import os
-import abc
+import sys
 
     # bruh
