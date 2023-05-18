@@ -2,15 +2,7 @@
 import abc
 
 
-
-
-
-
-
-
-
-
-def   f():
+def f():
     """
     x
     y
@@ -18,8 +10,10 @@ def   f():
     z
     """
 
+
 class MyAbstractClass:
     """Test"""
+
     @abc.abstractproperty
     def myproperty(self):
         pass
