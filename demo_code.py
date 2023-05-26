@@ -10,8 +10,10 @@ def f():
     z
     """
 
+
 class MyAbstractClass:
     """Test"""
+
     @abc.abstractproperty
     def myproperty(self):
         pass
