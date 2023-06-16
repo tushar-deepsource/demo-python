@@ -7,12 +7,12 @@ class SomeView(View):
     @staticmethod
     def get(request):
         user = get_user()
-        return fhtml(f"<em>{user.name}</em>")  # [PY-S0901]
+        return fhtml(f"<em>{user.name}</em>")
 
     @staticmethod
     def put(request):
         user = get_user()
-        return foo.format_html(f"<em>{user.name}</em>")  # [PY-S0901]
+        return foo.format_html(f"<em>{user.name}</em>")
 
 
 class FixedView(View):
