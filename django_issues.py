@@ -1,13 +1,22 @@
-"""Doc"""
-import datetime
-
-from django.http import HttpResponse
-from django.views.decorators.http import require_http_methods
+from django.views.generic.base import View
+from django.utils.html import format_html as fhtml
+import django.utils.html as foo
 
 
-@require_http_methods(["GET", "POST"])  # Sensitive
-def current_datetime(request):
-    """Doc"""
-    now = datetime.datetime.now()
-    html = "<html><body>It is %s.</body></html>" % now
-    return HttpResponse(html)
+class SomeView(View):
+    @staticmethod
+    def get(request):
+        user = get_user()
+        return fhtml(f"<em>{user.name}</em>")
+
+    @staticmethod
+    def put(request):
+        user = get_user()
+        return foo.format_html(f"<em>{user.name}</em>")
+
+
+class FixedView(View):
+    @staticmethod
+    def get(request):
+        user = get_user()
+        return format_html("<em>{}</em>", user.name)
