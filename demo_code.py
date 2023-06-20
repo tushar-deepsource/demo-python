@@ -13,14 +13,9 @@ def f():
     """
 
 
-
-
-
-
 class MyAbstractClass:
     """Test"""
 
-    
     @abc.abstractproperty
     def myproperty(self):
         pass
