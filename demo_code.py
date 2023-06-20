@@ -16,6 +16,7 @@ def f():
 
 
 
+
 class MyAbstractClass:
     """Test"""
 
