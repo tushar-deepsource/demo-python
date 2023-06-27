@@ -11,8 +11,10 @@ def f():
     """
     print(_, foo)
 
+
 class MyAbstractClass:
     """Test"""
+
     @abc.abstractproperty
     def myproperty(self):
         pass
