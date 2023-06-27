@@ -11,7 +11,6 @@ def f():
     """
     print(_, foo)
 
-
 class MyAbstractClass:
     """Test"""
 
