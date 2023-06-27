@@ -28,10 +28,12 @@ class MyAbstractClass:
     def mymethod(self):
         pass
 
+
 def foo():
     """
     This docstring is 80 characters long, normally flake8 would raise on this.
     """
+
 
 def bar():
     """
