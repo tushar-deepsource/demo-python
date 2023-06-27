@@ -9,6 +9,7 @@ def f():
 
     z
     """
+    print(_, foo)
 
 class MyAbstractClass:
     """Test"""
