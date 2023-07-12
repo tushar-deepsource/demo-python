@@ -1,12 +1,7 @@
 """Doc"""
 
 
-
-
-
-
-
-import     abc
+import abc
 
 
 def f():
