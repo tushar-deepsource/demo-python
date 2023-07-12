@@ -13,10 +13,7 @@ def f():
     """
 
 
-
-
-
-class     MyAbstractClass:
+class MyAbstractClass:
     """Test"""
 
     @abc.abstractproperty
