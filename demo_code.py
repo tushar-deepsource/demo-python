@@ -1,10 +1,7 @@
 """Doc"""
 
 
-
-
-
-import     abc
+import abc
 
 
 def f():
@@ -16,7 +13,7 @@ def f():
     """
 
 
-class     MyAbstractClass:
+class MyAbstractClass:
     """Test"""
 
     @abc.abstractproperty
