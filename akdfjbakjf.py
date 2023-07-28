@@ -1,13 +1,4 @@
-try:
-                    print("hi")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-except Exception:  # pylint:disable=broad-except
-    print("died")
+
+def foo():
+    """Foo <div>bar</div>"""
+    exec('foo')
