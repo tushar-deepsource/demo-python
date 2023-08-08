@@ -10,4 +10,4 @@ else:
 
 exec("a")
 
-    # bruh
+# bruh
