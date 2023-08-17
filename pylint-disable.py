@@ -3,5 +3,5 @@ def foo():
 
 try:
     foo()
-except Exception:  # pylint: disable=broad-except
+except Exception:  # pylint: disable=broad-except # noqa
     print("caught")
