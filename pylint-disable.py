@@ -3,7 +3,7 @@ def foo():
 
 try:
     foo()
-except Exception: # noqa # pylint: disable=broad-except
+except Exception: # noqa: B902 # pylint: disable=broad-except
     print("caught")
 
 def foo():
@@ -11,5 +11,21 @@ def foo():
 
 try:
     foo()
-except Exception: # noqa # skipcq: PYL-W0703
+except Exception: # noqa: B902 # skipcq: PYL-W0703
+    print("caught")
+
+def foo():
+    raise RuntimeError
+
+try:
+    foo()
+except Exception: # noqa: B902 # pylint: disable
+    print("caught")
+
+def foo():
+    raise RuntimeError
+
+try:
+    foo()
+except Exception: # noqa: B902 # skipcq
     print("caught")
