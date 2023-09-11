@@ -29,14 +29,13 @@ def play_with_magic_numbers():
         magic_numbers.add(get_next(elem))
     return magic_numbers
 
+
 x = int(input())
 
 if x < 0:
-   print("Number is negative")
+    print("Number is negative")
 else:
     if x < 100:
         print("Number is small")
 
-exec(  # skipcq: this should work
-    "foo"
-)
+exec("foo")  # skipcq: this should work
