@@ -1,16 +1,10 @@
 """Doc"""
 import unittest
-from demo_code import RandomNumberGenerator
-
-
-def test_random_number_generator():
-    """Test random number generator."""
-    assert RandomNumberGenerator().get_number()
-
+from demo_code import f
 
 class Tests(unittest.TestCase):
     """Doc"""
 
-    def my_test(self, arg1, arg2):
+    def my_test(self):
         """Doc"""
-        self.assertEquals(arg1, arg2)
+        self.assertEquals(f(), None)
