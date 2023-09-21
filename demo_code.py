@@ -18,14 +18,20 @@ class MyAbstractClass:
     def myproperty(self):
         pass
 
-    def some_long_method(
-        attribute_1: str | None = None,
-        attribute_2: str | None = None,
-        attribute_3: str | None = None,
-        attribute_4: str | None = None,
-        attribute_5: str | None = None,
-    ):
-        pass
+    def some_long_method(self):
+        items = (
+            "attribute_1",
+            "attribute_2",
+            "attribute_3",
+            "attribute_4",
+            "attribute_5",
+            "attribute_1",
+            "attribute_2",
+            "attribute_3",
+            "attribute_4",
+            "attribute_5",
+        )
+        return items
     
     @property
     @abc.abstractmethod
