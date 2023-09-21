@@ -32,7 +32,7 @@ class MyAbstractClass:
             "attribute_5",
         )
         return items
-    
+
     @property
     @abc.abstractmethod
     def myproperty2(cls):
