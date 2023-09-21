@@ -1,5 +1,9 @@
 version = 1
 
+exclude_patterns = [
+  "**/asd.py",
+]
+
 [[analyzers]]
 name = "test-coverage"
 
