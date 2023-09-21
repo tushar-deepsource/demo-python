@@ -31,6 +31,7 @@ class MyAbstractClass:
             "attribute_4",
             "attribute_5",
         )
+        print(items)
         return items
     
     @property
