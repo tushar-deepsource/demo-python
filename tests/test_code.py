@@ -2,9 +2,6 @@
 import unittest
 from demo_code import f
 
-class Tests(unittest.TestCase):
+def my_test(self):
     """Doc"""
-
-    def my_test(self):
-        """Doc"""
-        self.assertEquals(f(), None)
+    assert f() is None
