@@ -1,7 +1,6 @@
 """Doc"""
-import unittest
 from demo_code import f
 
-def test_something(self):
+def test_something():
     """Doc"""
     assert f() is None
