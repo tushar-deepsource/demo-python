@@ -29,7 +29,7 @@ jobs:
     - name: Run tests
       run: |
         pip install pytest-cov django
-        pytest --cov=./ --cov-report=xml
+        pytest tests --cov=./ --cov-report=xml
 
     - name: Report test coverage to DeepSource
       run: |
