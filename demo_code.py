@@ -26,7 +26,7 @@ class MyAbstractClass:
         attribute_5: str | None = None,
     ):
         pass
-    
+
     @property
     @abc.abstractmethod
     def myproperty2(cls):
