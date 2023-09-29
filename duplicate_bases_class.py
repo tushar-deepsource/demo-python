@@ -2,7 +2,6 @@
 import abc
 
 
-
 class Base:
     """Doc"""
 
@@ -10,14 +9,11 @@ class Base:
         self.base = 1
 
 
-
 class BaseOne:
     """Doc"""
 
     def __init__(self):
-
         self.base_one = 2
-
 
 
 class Child(Base, BaseOne, Base, BaseOne):
