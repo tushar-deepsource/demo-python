@@ -12,6 +12,7 @@ name = "python"
 
   [analyzers.meta]
   runtime_version = "3.x.x"
+  cyclomatic_complexity_threshold = "low"
 
 [[transformers]]
 name = "black"
