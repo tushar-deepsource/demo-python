@@ -14,4 +14,8 @@ def current_datetime(request):
 
 
 def foo():
+    'foo'
+
+
+    
     return a or b or c or d or e or f or g or g or i or j or k
