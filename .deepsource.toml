@@ -15,4 +15,4 @@ name = "python"
   cyclomatic_complexity_threshold = "low"
 
 [[transformers]]
-name = "black"
+name = "ruff"
