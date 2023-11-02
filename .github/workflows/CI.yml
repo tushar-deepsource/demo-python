@@ -12,7 +12,7 @@ jobs:
     runs-on: [ubuntu-latest]
 
     env:
-        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN }}
+        DEEPSOURCE_DSN: ${{ secrets.DEEPSOURCE_DSN_DEV }}
 
     steps:
     - name: Checkout code
