@@ -42,3 +42,6 @@ class MyAbstractClass:
     @abc.abstractmethod
     def mymethod(self):
         pass
+
+    def foo(self):
+        print("this never gets run")
