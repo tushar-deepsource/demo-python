@@ -45,3 +45,4 @@ class MyAbstractClass:
 
     def foo(self):
         print("this never gets run")
+        print("this also never gets run")
