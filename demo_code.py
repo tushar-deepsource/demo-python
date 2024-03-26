@@ -1,4 +1,5 @@
 """Doc"""
+
 import abc
 
 
@@ -33,7 +34,7 @@ class MyAbstractClass:
         )
         print(items)
         return items
-    
+
     @property
     @abc.abstractmethod
     def myproperty2(cls):
