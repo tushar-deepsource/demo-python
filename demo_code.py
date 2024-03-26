@@ -50,6 +50,6 @@ class MyAbstractClass:
 
 
 path = "/tmp/foo"  # skipcq: BAN-B108
-# foo # skipcq: PY-W0070
+# foo # skipcq: PY-W0072
 x = []
 x.append(1)
