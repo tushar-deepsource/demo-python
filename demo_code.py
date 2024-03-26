@@ -46,3 +46,9 @@ class MyAbstractClass:
     def foo(self):
         print("this never gets run")
         print("this also never gets run")
+
+
+path = "/tmp/foo"  # skipcq: BAN-B108
+# foo # skipcq: PY-W0070
+x = []
+x.append(1)
