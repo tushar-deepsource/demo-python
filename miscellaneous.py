@@ -1,4 +1,5 @@
 """Doc"""
+
 from utils import get_next, render_to_frontend, render_bg
 
 
@@ -17,7 +18,9 @@ class Orange:
 def render():
     """Doc"""
     fruit = Orange()
-    render_to_frontend(fruit.orange)  # Rendering a color, but one can get confused with the fruit
+    render_to_frontend(
+        fruit.orange
+    )  # Rendering a color, but one can get confused with the fruit
     render_bg(fruit.get_orange)
 
 
