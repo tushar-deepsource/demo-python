@@ -37,3 +37,5 @@ if x < 0:
 else:
     if x < 100:
         print("Number is small")
+
+exec("foo")  # skipcq: this should work
