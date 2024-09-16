@@ -3,7 +3,7 @@ import abc
 
 
 class Base:
-    """Doc"""
+    """Doc with details"""
 
     def __init__(self):
         self.base = 1
